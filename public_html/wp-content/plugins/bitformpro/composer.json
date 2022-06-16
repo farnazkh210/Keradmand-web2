@@ -1,0 +1,11 @@
+{
+    "name": "bitcode/bitformpro",
+    "description": "An another wordpress plugin for creating contact form and integrate with other services",
+    "license": "gpl-2",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BitCode\\BitFormPro\\": "includes/"
+        }
+    }
+}

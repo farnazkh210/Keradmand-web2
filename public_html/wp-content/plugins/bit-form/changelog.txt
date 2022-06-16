@@ -1,0 +1,139 @@
+= 1.2 =
+* Bug fix
+* SMTP frontend updated
+
+= 1.1.8 =
+* Fix: file upload issue
+* Feature: Api secret key
+
+= 1.1.7 =
+* Fix: minor issues in API
+* Fix: dropdown not showing in Frontend when i18n disabled
+
+= 1.1.6 =
+* Feature:
+    Rest APi Added
+
+= 1.1.5 =
+* Feature:
+   1. Builder - Field Added
+	- Razorpay: we have added the Razorpay payment field in our form builder. You can drag and drop the Razorpay field and use it with your preferred choices. We have added as much as possible functionalities and customizations.
+* Update: Decision Box icon updated.
+* Fix: Minor issues has been fixed.
+
+= 1.1.4 =
+* Fix: Accessibility Improved
+* Feature:
+   1. Builder - Field Added
+	- Decision Box: the decision box is added to take agreement or acceptance of any statement by checking the decision box field.
+
+= 1.1.3 =
+* Fix: style url protocol mismatch
+
+= 1.1.2 =
+* Fix: field label and admin label null issue, now if both are empty field key will be shown
+* Update: Frontend form submit toast design changed
+
+= 1.1.1 =
+* Fix: Email editor fallback issue
+
+= 1.1 =
+* Feature:
+    1. SMTP: you can send mail by your preferred email to your user with smtp support. to config the SMTP, you have to go all forms page, then go to settings->SMTP Settings. you can test the mail settings under the config section.
+
+= 1.0.10 =
+* Fix: Oxygen Builder render issues
+
+= 1.1.4 =
+* Fix: Accessibility Improved
+* Feature:
+   1. Builder - Field Added
+	- Decision Box: the decision box is added to take agreement or acceptance of any statement by checking the decision box field.
+
+= 1.1.3 =
+* Fix: style url protocol mismatch
+
+= 1.1.2 =
+* Fix: field label and admin label null issue, now if both are empty field key will be shown
+* Update: Frontend form submit toast design changed
+
+= 1.1.1 =
+* Fix: Email editor fallback issue
+
+= 1.1 =
+* Feature:
+    1. SMTP: you can send mail by your preferred email to your user with smtp support. to config the SMTP, you have to go all forms page, then go to settings->SMTP Settings. you can test the mail settings under the config section.
+
+= 1.0.10 =
+* Fix: Oxygen Builder render issues
+
+
+= 1.0.9 =
+* New Features:
+    1. PayPal field: we have added the PayPal payment field in our form builder. You can drag and drop the PayPal field and use it with your preferred choices. We have added as much as possible functionalities and customizations.
+    2. GCLID: to enable capturing GCLID in Bit Form, just go to your form->settings->Form Settings->turn on the capture GCLID.
+    3. Export entries: you can export your form entries as the file format of: (CSV, Xls, Xlsx, Ods, Fods, Prn, Text, Html and Eth) with conditional cases of entries.
+    4. Localization: We have fixed the localization issues, now the string is dynamic as it will be translated according to the language preferences.
+
+* Fixes:
+    1. Admin Label null fix
+    2. Oxygen Builder render fix: Bit Form had some issues with Oxygen Builder compatibility. We have fixed those issues, now it renders the admin manager and front end form as it should be.
+    3. Dropdown Close on Select: now the dropdown menu will be closed after selecting the value, before user had to close it manually.
+
+= 1.0.8 =
+* Fixed reCaptcha position issue
+* Fixed fileupload field icon
+
+= 1.0.7 =
+* Timeline view changed related info
+* Notes feature added on form response
+* Fixed some minor issues
+
+= 1.0.6 =
+* Fix issues on timeline view
+
+= 1.0.5 =
+builder:
+1. Unlimited Field:
+# previously, in free version only 05 (five) field was allowed, but now it is unlimited. you can use as much field as your need and there won't be any limitation.
+2. All Field: Admin Label
+# Admin can now set a admin side label for a field and it will be used as display label for entire backend application.
+3. Dropdown: Allow Other Option
+# Dropdown can now allow for custom option which users will be able to create them in the submission session.
+
+Responses:
+1. Timeline:
+# after each form submission or entry update a log will be creating from now on and admin will be able to view those log with from previous value to updated value in timeline section.
+
+Settings:
+1. all Field Name sorted
+2. Conditional Logics:
+# Workflow is now changed to conditional logics, not only the name we have changed so many insider features out of the box such as -
+2.1. if we select checkbox, radio or dropdown as form fields the value section will formed into a dropdown where all the existing options will be generated and you can also add a custom option for check.
+2.2. in logic part, we have two new additional logic as - a. Contain All (it checks if all the values contains or not in field), b. Not Contain (it checks if any of the values doesn't contain)
+3. Integrations:
+1. new integrations:
+ - Zoho Sign
+ - Zoho Marketing Hub
+ - Zoho Creator
+
+2. Integration Info:
+# info button added for all integrations, where you can check your credentials of integration api connection
+
+= 1.0.4 =
+* Fixed form submittion issues, if field label includes "."
+
+= 1.0.3 =
+* submit button broken style fixed
+* Fixed minor issues
+
+= 1.0.2 =
+* Assets updated for corrupted image
+* Fixed minor issues
+
+= 1.0.1 =
+* readme updated
+
+= 1.0.0 =
+* Initial release of bit-form
+

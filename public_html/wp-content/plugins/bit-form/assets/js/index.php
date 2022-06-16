@@ -1,0 +1,1 @@
+<?php header("Location: /wp-admin/admin.php?page=bitform#/?source=pwa")?>

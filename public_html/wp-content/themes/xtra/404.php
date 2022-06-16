@@ -1,0 +1,1 @@
+<?php Codevz_Core_Theme::generate_page( '404' );
